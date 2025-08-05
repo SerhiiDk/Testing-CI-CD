@@ -1,0 +1,6 @@
+@POC_CI_CD_HostAddress = http://localhost:5270
+
+GET {{POC_CI_CD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
