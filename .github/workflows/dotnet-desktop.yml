@@ -23,8 +23,7 @@ jobs:
       run: dotnet restore
 
     - name: Run Tests
-      run: dotnet test --no-build
-      continue-on-error: false 
+      run: dotnet test
       
     - name: Build
       run: dotnet build --no-restore --configuration Release
