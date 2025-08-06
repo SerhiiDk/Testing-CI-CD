@@ -3,7 +3,7 @@
 public class UnitTest2
 {
     [Fact]
-    public void Return_Unit_Test2_Success()
+    public void Return_Unit_Test2_Failed()
     {
         // Arrange
         var a = 1;
