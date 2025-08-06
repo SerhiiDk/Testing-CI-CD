@@ -9,7 +9,7 @@ public class UnitTest2
         var a = 1;
         var b = 2;
         // Act
-        var expected = 4;
+        var expected = 3;
         var result = a + b;
         // Assert
         Assert.Equal(expected, result);
@@ -35,7 +35,7 @@ public class UnitTest2
         var a = 1;
         var b = 2;
         // Act
-        var expected = 4;
+        var expected = 3;
         var result = a + b;
         // Assert
         Assert.Equal(expected, result);

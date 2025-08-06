@@ -25,7 +25,7 @@ namespace POC_CI_CD.Tests
             var b = 2;
             // Act
 
-            var expected = 13;
+            var expected = 3;
             var result = a + b;
             // Assert
             Assert.Equal(expected, result);
