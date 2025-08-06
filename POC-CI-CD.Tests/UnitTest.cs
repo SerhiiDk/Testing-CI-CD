@@ -3,7 +3,7 @@ namespace POC_CI_CD.Tests
     public class UnitTest
     {
         [Fact]
-        public void Test1()
+        public void Return_Unit_Test_Success()
         {
             // Arrange
             var a = 1;
@@ -18,7 +18,7 @@ namespace POC_CI_CD.Tests
 
 
         [Fact]
-        public void Test2()
+        public void Return_Unit_Test_Failed()
         {
             // Arrange
             var a = 1;
