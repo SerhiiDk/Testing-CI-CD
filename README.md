@@ -6,8 +6,10 @@ Sådan køre man tests
 - Terminal/PowerShell: køre kommand "dotnet test"
 
 
-Nye unit tests skal altid tilføjes til fillen UnitTest.cs. 
+Nye unit tests skal altid tilføjes til fillen UnitTest.cs.
 Nye end to end test skal altid tilføjes til filen EndToEndTest.cs.
+
+Yderligere filer kan også tilføjes til Test projectet hvis ønsket.
 
 
 GitHub actions er blevet sat op til afvise merge/deployment, hvis test fejler.
