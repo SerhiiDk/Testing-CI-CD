@@ -1,3 +1,7 @@
+Projektet indeholder Api(POC-CI-CD) og Test(POC-CI-CD.Tests) produkter.  
+Test project findes i POC-CI-CD.Tests mappen. 
+
+Sådan køre man tests
 - UI: Tryk på Test => Run All Tests
 - Terminal/PowerShell: køre kommand "dotnet test"
 
