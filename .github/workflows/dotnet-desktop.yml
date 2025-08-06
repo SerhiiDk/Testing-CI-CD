@@ -22,9 +22,9 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
 
-    - name: Build
-      run: dotnet build --no-restore --configuration Release
-
     - name: Run Tests
       run: dotnet test
       continue-on-error: false 
+      
+    - name: Build
+      run: dotnet build --no-restore --configuration Release
