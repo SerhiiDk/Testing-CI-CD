@@ -41,5 +41,19 @@ public class UnitTest2
         Assert.Equal(expected, result);
     }
 
+  
+
+    [Fact]
+    public void Return_Unit_Failed3()
+    {
+        // Arrange
+        var a = 1;
+        var b = 3;
+        // Act
+        var expected = 4;
+        var result = a + b;
+        // Assert
+        Assert.Equal(expected, result);
+    }
 }
 
