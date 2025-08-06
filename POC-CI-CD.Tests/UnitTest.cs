@@ -31,8 +31,9 @@ namespace POC_CI_CD.Tests
             Assert.Equal(expected, result);
         }
 
+
         [Fact]
-        public void Return_Unit_Test_Success1()
+        public void Return_Unit_Test_Success12()
         {
             // Arrange
             var a = 1;
