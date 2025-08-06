@@ -24,7 +24,6 @@ jobs:
 
     - name: Run Tests
       run: dotnet test --no-build
-      continue-on-error: false 
       
     - name: Build
       run: dotnet build --no-restore --configuration Release
