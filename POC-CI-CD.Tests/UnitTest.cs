@@ -70,7 +70,7 @@ namespace POC_CI_CD.Tests
             var b = 2;
             // Act
 
-            var expected = 4;
+            var expected = 3;
 
             var result = a + b;
             // Assert
